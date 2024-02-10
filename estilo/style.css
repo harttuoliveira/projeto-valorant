@@ -21,19 +21,20 @@
 
 body {
     background-color: lightcoral;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-principal);
 }
 header {
     background-image: linear-gradient(to bottom, var(--corv00), var(--corv04));
     min-height: 150px;
-    text-align: center;
     padding-top: 40px;
+    padding-bottom: 0px;
 }
 header > h1 {
     font-size: 3em;
     font-weight: normal;
     font-family: var(--font-principal);
     margin-bottom: 20px;
+    text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
 }
 nav {
@@ -43,6 +44,7 @@ nav {
 nav > a {
     color: var(--corv01);
     padding: 10px;
+    margin: 
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
