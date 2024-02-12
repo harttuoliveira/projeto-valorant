@@ -20,14 +20,13 @@
 }
 
 body {
-    background-color: lightcoral;
+    background-color: white;
     font-family: var(--font-principal);
 }
 header {
     background-image: linear-gradient(to bottom, var(--corv00), var(--corv04));
     min-height: 150px;
     padding-top: 40px;
-    padding-bottom: 0px;
 }
 header > h1 {
     font-size: 3em;
@@ -43,15 +42,14 @@ nav {
 }
 nav > a {
     color: var(--corv01);
-    padding: 10px;
-    margin: 
+    padding: 10px; 
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
 }
 nav > a:hover {
-    background-color: var(--corv03);
+    background-color: var(--corv01);
     color: var(--corv04);
 }
 
