@@ -54,9 +54,13 @@ nav > a:hover {
     background-color: var(--corv01);
     color: var(--corv04);
 }
-article {
+main {
     padding: 10px;
-    
+}
+iframe {
+    width: 96vw;
+    height: 500px;
+    border: 2px solid var(--corv03);
 }
 
 
